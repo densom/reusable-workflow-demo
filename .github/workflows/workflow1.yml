@@ -36,4 +36,5 @@ jobs:
           echo test, and deploy your project.
 
   call-workflow-2:
+    needs: build
     uses: ./.github/workflows/workflow2.yml
